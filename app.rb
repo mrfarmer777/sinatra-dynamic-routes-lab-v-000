@@ -38,6 +38,7 @@ class App < Sinatra::Base
       n1/n2
     else
       'Invalid operation'
-      
+    end
+
   end
 end
