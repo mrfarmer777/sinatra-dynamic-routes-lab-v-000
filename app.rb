@@ -30,13 +30,13 @@ class App < Sinatra::Base
     n2=params[:number2].to_i
     case op
     when 'add'
-      n1+n2
+      (n1+n2).to_s
     when 'subtract'
-      n1-n2
+      (n1-n2).to_s
     when 'multiply'
-      n1*n2
+      (n1*n2).to_s
     when 'divide'
-      n1/n2
+      (n1/n2).to_s
     else
       'Invalid operationsss'
     end
