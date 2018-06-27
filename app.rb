@@ -14,7 +14,7 @@ class App < Sinatra::Base
     (num*num).to_s
   end
 
-  get '/say/:number/:phrase' do
+  get '/say/:number/:phrase' do #!Forgot the slash again!
     num=params[:number].to_i
     phrase=params[:phrase]
     "#{phrase}"
